@@ -78,9 +78,29 @@ export default function App() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
             >
-              {filteredGames.map((game) => (
+              {/* Hero Section */}
+              <div className="mb-12 text-center py-12">
+                <motion.h2 
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.2 }}
+                  className="text-5xl md:text-7xl font-black mb-4 tracking-tighter bg-gradient-to-b from-white to-zinc-500 bg-clip-text text-transparent"
+                >
+                  UNBLOCKED GAMES
+                </motion.h2>
+                <motion.p 
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.3 }}
+                  className="text-zinc-400 text-lg md:text-xl max-w-2xl mx-auto"
+                >
+                  Your ultimate portal for the best web games, playable anywhere, anytime. No downloads, no restrictions.
+                </motion.p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {filteredGames.map((game) => (
                 <motion.div
                   key={game.id}
                   layoutId={game.id}
@@ -111,6 +131,7 @@ export default function App() {
                   <p className="text-zinc-500 text-lg">No games found matching your search.</p>
                 </div>
               )}
+              </div>
             </motion.div>
           ) : (
             <motion.div
