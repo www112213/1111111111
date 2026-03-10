@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "thumbnail": "https://picsum.photos/seed/2048/400/300",
+    "url": "https://play2048.co/"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "description": "The classic block-stacking puzzle game.",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
+    "url": "https://tetris.com/play-tetris"
+  },
+  {
+    "id": "doodle-jump",
+    "title": "Doodle Jump",
+    "description": "Jump as high as you can in this addictive platformer.",
+    "thumbnail": "https://picsum.photos/seed/jump/400/300",
+    "url": "https://doodlejump.io/"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "Drive a ball down a steep slope and avoid obstacles.",
+    "thumbnail": "https://picsum.photos/seed/slope/400/300",
+    "url": "https://slopegame.io/"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "description": "Tap to flap your wings and fly through the pipes.",
+    "thumbnail": "https://picsum.photos/seed/bird/400/300",
+    "url": "https://flappybird.io/"
+  },
+  {
+    "id": "paper-io",
+    "title": "Paper.io 2",
+    "description": "Conquer as much territory as possible.",
+    "thumbnail": "https://picsum.photos/seed/paper/400/300",
+    "url": "https://paper-io.com/"
+  }
+]
